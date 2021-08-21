@@ -14,11 +14,11 @@ export const getHomeList = async (): Promise<IMovieList[]> => {
     basicFetch('/discover/tv?with_network=213'),
     basicFetch('/trending/all/week'),
     basicFetch('/movie/top_rated'),
-    basicFetch('/discover/movie?with-genres=28'),
-    basicFetch('/discover/movie?with-genres=35'),
-    basicFetch('/discover/movie?with-genres=27'),
-    basicFetch('/discover/movie?with-genres=10749'),
-    basicFetch('/discover/movie?with-genres=99')
+    basicFetch('/discover/movie?with_genres=28'),
+    basicFetch('/discover/movie?with_genres=35'),
+    basicFetch('/discover/movie?with_genres=27'),
+    basicFetch('/discover/movie?with_genres=10749'),
+    basicFetch('/discover/movie?with_genres=99')
   ])
 
   return [
